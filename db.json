@@ -1,0 +1,76 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "How to Build an AI-Powered Blogging Platform",
+      "excerpt": "Learn how to design and build a lightweight AI-based blog generator using React and Tailwind CSS.",
+      "content": "Creating an AI-powered blog platform starts with a clean and functional UI. Using React for the frontend and JSON Server for a mock backend allows developers to build fast and prototype efficiently. Tailwind CSS ensures that your UI looks modern and is responsive on all devices.\n\nTo simulate AI functionality, you can implement a mock API that generates static responses for now. This keeps the project light but aligns with the assignment's goals. Once the structure is in place, you can enhance the project by integrating real AI tools like OpenAI's GPT or LangChain.",
+      "date": "2025-05-21T10:30:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "2",
+      "title": "10 Tips for Writing Better Blog Posts",
+      "excerpt": "Master the art of blog writing with these essential tips for clarity, engagement, and SEO.",
+      "content": "Writing blog posts is more than just putting words on a page. Good blog writing involves structuring content, using headings, bullet points, and visuals to enhance readability.\n\nYou should also focus on using keywords naturally, writing in an active voice, and always starting with a strong hook. By applying these tips consistently, you’ll improve both the quality and reach of your blog posts.",
+      "date": "2025-05-18T14:00:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "3",
+      "title": "Understanding React Hooks",
+      "excerpt": "A beginner’s guide to using React Hooks effectively in your applications.",
+      "content": "React Hooks let you use state and other React features without writing a class. The most common hooks are useState and useEffect, which allow you to manage component state and side effects.\n\nBy mastering hooks, you can write cleaner, more modular, and reusable React components.",
+      "date": "2025-05-15T09:00:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "4",
+      "title": "Getting Started with Tailwind CSS",
+      "excerpt": "How to quickly set up Tailwind CSS and start building beautiful user interfaces.",
+      "content": "Tailwind CSS is a utility-first CSS framework that lets you build custom designs without leaving your HTML. It promotes consistency and speeds up development by providing pre-built CSS classes.\n\nIntegrating Tailwind with React is straightforward and makes styling more efficient and maintainable.",
+      "date": "2025-05-12T13:15:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "5",
+      "title": "Building Responsive Layouts",
+      "excerpt": "Techniques and best practices to create mobile-friendly and responsive web apps.",
+      "content": "Responsive design ensures your website looks great on any device. Using CSS media queries, flexible grids, and modern frameworks like Tailwind CSS, you can build layouts that adapt fluidly.\n\nDon’t forget to test on multiple devices and optimize images for faster load times.",
+      "date": "2025-05-10T11:00:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "6",
+      "title": "Mocking APIs for Frontend Development",
+      "excerpt": "Why and how to use JSON Server to create mock APIs during frontend development.",
+      "content": "Mock APIs allow frontend developers to build and test applications without waiting for backend services. JSON Server is a great tool that lets you quickly spin up REST APIs based on a JSON file.\n\nThis accelerates development and makes collaboration between frontend and backend teams easier.",
+      "date": "2025-05-08T16:45:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "7",
+      "title": "Deploying Your React Application",
+      "excerpt": "Step-by-step guide to deploy your React application to popular hosting services.",
+      "content": "Once your React app is ready, you need to deploy it to the web. Popular choices include Netlify, Vercel, and GitHub Pages.\n\nEach has easy setup guides and free plans perfect for portfolios or small projects. Automate deployment with CI/CD pipelines for efficiency.",
+      "date": "2025-05-05T10:00:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "8",
+      "title": "Introduction to React Router",
+      "excerpt": "Learn how to use React Router to create multi-page React applications.",
+      "content": "React Router allows your app to navigate between pages without reloading. It provides components like Route, Link, and Switch to build SPA navigation.\n\nUnderstanding React Router is key to building professional React apps with multiple views.",
+      "date": "2025-05-03T09:30:00Z",
+      "author": "Kavipriya"
+    },
+    {
+      "id": "9",
+      "title": "SEO Best Practices for React Apps",
+      "excerpt": "Tips to improve your React app’s search engine visibility and ranking.",
+      "content": "React apps can be SEO-friendly by using server-side rendering (SSR), meta tags, and sitemap generation.\n\nTools like Next.js provide SSR out of the box. Also, ensure your app’s performance and accessibility meet web standards.",
+      "date": "2025-05-01T08:00:00Z",
+      "author": "Kavipriya"
+    }
+  ]
+}
