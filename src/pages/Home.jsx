@@ -9,6 +9,8 @@ function Home() {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
+ 
+  const API = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     fetchBlogs();
@@ -16,8 +18,8 @@ function Home() {
 
   const fetchBlogs = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/blogs");
-      setBlogs(response.data.reverse()); // show newest first
+      const response = await axios.get(`${API}/blogs`);
+      setBlogs(response.data.reverse());
       setLoading(false);
     } catch (error) {
       console.error("Error fetching blogs:", error);
@@ -27,7 +29,7 @@ function Home() {
 
  const handleAddBlog = async (newBlog) => {
   try {
-    const response = await axios.post("http://localhost:5000/blogs", newBlog);
+    const response = await axios.post(`${API}/blogs`, newBlog);
     setBlogs(prevBlogs => [response.data, ...prevBlogs]);
   } catch (error) {
     console.error("Error adding blog:", error);
@@ -36,7 +38,7 @@ function Home() {
 
   const handleDeleteBlog = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/blogs/${id}`);
+      await axios.delete(`${API}/blogs/${id}`);
       setBlogs(blogs.filter((blog) => blog.id !== id));
     } catch (error) {
       console.error("Error deleting blog:", error);
